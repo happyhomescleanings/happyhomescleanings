@@ -6,7 +6,7 @@ export const site = {
   heroHeadline: "Let us help you have a happy home.",
   heroSubhead:
     "Reliable house cleaning, deep cleans, and more — serving Rapid City and surrounding communities.",
-  email: "Haileycartierworks@gmail.com",
+  email: "hello@happyhomescleanings.com",
   phone: "6055190198",
   location: {
     city: "Rapid City",

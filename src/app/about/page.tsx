@@ -51,7 +51,7 @@ export default function AboutPage() {
       </Section>
 
       <Section alt title="Our team">
-        <div className="mx-auto grid max-w-3xl gap-8 sm:grid-cols-2">
+        <div className="mx-auto max-w-md">
           {teamMembers.map((member) => (
             <TeamMemberCard key={member.name} member={member} />
           ))}

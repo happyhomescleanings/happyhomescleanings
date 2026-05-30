@@ -1,15 +1,11 @@
 import type { TeamMember } from "@/components/TeamMemberCard";
+import { teamImagePaths } from "@/content/images";
 
-/**
- * Add `image: "/images/team/hailey.jpg"` (etc.) when headshots are ready.
- */
 export const teamMembers: TeamMember[] = [
   {
-    name: "Hailey Cartier",
-    role: "Owner",
-  },
-  {
-    name: "Riley Sweeney",
-    role: "Owner",
+    name: "Hailey Cartier & Riley Sweeney",
+    role: "Owners",
+    image: teamImagePaths.owners,
+    imageAlt: "Hailey Cartier and Riley Sweeney, owners of Happy Homes Services",
   },
 ];

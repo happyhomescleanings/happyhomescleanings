@@ -46,8 +46,6 @@ export const galleryImages = beforeAfterImages.filter((_, i) =>
   [0, 1, 2, 3, 5, 6].includes(i)
 );
 
-/** Drop headshots here when ready: `public/images/team/hailey.jpg`, etc. */
 export const teamImagePaths = {
-  hailey: "/images/team/hailey.jpg",
-  riley: "/images/team/riley.jpg",
+  owners: "/images/team/hailey_and_riley.png",
 } as const;

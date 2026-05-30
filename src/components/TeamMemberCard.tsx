@@ -3,8 +3,8 @@ import Image from "next/image";
 export type TeamMember = {
   name: string;
   role: string;
-  /** Set when a real headshot is available (e.g. /images/hailey.jpg). */
   image?: string;
+  imageAlt?: string;
 };
 
 function initialsFor(name: string): string {
@@ -19,14 +19,14 @@ function initialsFor(name: string): string {
 export function TeamMemberCard({ member }: { member: TeamMember }) {
   return (
     <article className="text-center">
-      <div className="relative mx-auto flex aspect-[3/4] w-full max-w-[240px] items-center justify-center overflow-hidden rounded-2xl bg-brand-warm">
+      <div className="relative mx-auto flex aspect-[4/3] w-full max-w-md items-center justify-center overflow-hidden rounded-2xl bg-brand-warm">
         {member.image ? (
           <Image
             src={member.image}
-            alt={member.name}
+            alt={member.imageAlt ?? member.name}
             fill
-            className="object-cover object-top"
-            sizes="240px"
+            className="object-cover object-center"
+            sizes="(max-width: 640px) 90vw, 448px"
           />
         ) : (
           <span

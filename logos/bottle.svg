@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="svg" href="#object-0"/>
+      <bx:file format="svg" href="#object-1" path="Untitled 2.svg"/>
+      <bx:file format="svg" href="#object-2" path="Untitled 3.svg"/>
+      <bx:file format="svg" href="#object-3" path="Untitled 4.svg"/>
+      <bx:file format="svg" href="#object-4" path="Untitled 5.svg"/>
+      <bx:file format="svg" href="#object-5" path="Untitled 6.svg"/>
+      <bx:file format="svg" href="#object-6" path="Untitled 7.svg"/>
+      <bx:file format="svg" href="#object-7" path="Untitled 8.svg"/>
+    </bx:export>
+  </defs>
+  <title id="title">Smiley Spray Bottle Icon</title>
+  <desc id="desc">One-color bold line SVG icon of a spray bottle with a smiley face.</desc>
+  <path d="M 119.566 46.443 L 325.566 46.443 C 373.566 46.443 411.566 84.443 411.566 132.443 L 348.566 132.443 C 331.566 132.443 317.566 146.443 317.566 163.443" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0);" stroke="currentColor" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" id="object-0"/>
+  <path d="M 119.566 46.443 L 119.566 110.443 L 166.566 110.443" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0);" stroke="currentColor" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" id="object-1"/>
+  <path d="M 167.566 110.443 C 185.566 121.443 183.938 142.443 177.938 163.443 L 147.272 215.5" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0);" stroke="currentColor" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" id="object-2"/>
+  <rect x="199.566" y="154.443" width="120" height="64" rx="10" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0);" stroke="currentColor" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" id="object-3"/>
+  <path d="M 196.852 222.778 C 151.852 275.778 131.566 335.443 131.566 404.443 C 131.566 443.443 155.566 463.443 193.566 463.443 L 327.566 463.443 C 365.566 463.443 389.566 443.443 389.566 404.443 C 389.566 335.443 366.752 276.398 321.752 223.398" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0);" stroke="currentColor" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" id="object-4"/>
+  <circle cx="219.566" cy="312.443" r="22.82" fill="currentColor" stroke="none" id="object-5"/>
+  <path d="M 209.566 377.443 C 225.566 404.443 293.566 404.443 309.566 377.443" style="stroke: rgb(0, 0, 0); fill: rgba(255, 255, 255, 0);" stroke="currentColor" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" id="object-6"/>
+  <circle cx="296.701" cy="311.866" r="22.82" fill="currentColor" stroke="none" id="object-7"/>
+</svg>

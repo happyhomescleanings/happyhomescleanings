@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm linen + modern organic */
+  --color-brand-linen: #faf7f2;
+  --color-brand-oat: #f4efe6;
+  --color-brand-canvas: #fffdf9;
+  --color-brand-sand: #e5ddd0;
+  --color-brand-ink: #3c3632;
+  --color-brand-muted: #8a7f73;
+
+  --color-brand-clay: #b8846a;
+  --color-brand-clay-dark: #9d6d55;
+  --color-brand-clay-light: #f3e8df;
+
+  --color-brand-sage: #9aab8f;
+  --color-brand-sage-light: #e8efe3;
+  --color-brand-olive: #6d7d62;
+
+  /* Aliases — keep existing class names working */
+  --color-brand-cream: var(--color-brand-linen);
+  --color-brand-white: var(--color-brand-canvas);
+  --color-brand-warm: var(--color-brand-oat);
+  --color-brand-forest: var(--color-brand-clay);
+  --color-brand-forest-dark: var(--color-brand-clay-dark);
+  --color-brand-accent: var(--color-brand-olive);
+  --color-brand-accent-dark: #586948;
+
+  --font-sans: var(--font-montserrat), system-ui, sans-serif;
+  --font-accent: var(--font-nunito), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-linen);
+  color: var(--color-brand-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-brand-sage) 45%, var(--color-brand-linen));
+}

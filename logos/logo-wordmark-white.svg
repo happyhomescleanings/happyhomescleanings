@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <title>Happy Homes Cleanings - Wordmark White</title>
+  <defs>
+    <style>
+      .text-main {
+        font-family: Montserrat, 'Avenir Next', Arial, sans-serif;
+        font-size: 88px;
+        font-weight: 500;
+        letter-spacing: 10px;
+        fill: #FFFFFF;
+      }
+      .text-sub {
+        font-family: Montserrat, 'Avenir Next', Arial, sans-serif;
+        font-size: 52px;
+        font-weight: 500;
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+  <text class="text-main" x="450" y="88" text-anchor="middle">HAPPY HOMES</text>
+  <text class="text-sub" x="450" y="168" text-anchor="middle" textLength="320" lengthAdjust="spacing">CLEANINGS</text>
+</svg>

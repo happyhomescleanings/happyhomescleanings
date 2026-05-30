@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <title>Happy Homes Cleanings - Icon Rounded Square White</title>
+  <defs>
+    <style>
+      .white { fill: #FFFFFF; }
+    </style>
+  </defs>
+  <rect x="10" y="10" width="380" height="380" rx="52" ry="52" fill="#000000"/>
+  <rect x="16" y="16" width="368" height="368" rx="46" ry="46" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <g transform="translate(200 200) scale(0.71) translate(0 -60)">
+    <path class="white" d="M -170 30 L 0 -120 L 170 30 L 170 225 Q 145 218 125 212 L 125 50 L 0 -60 L -125 50 L -125 212 Q -145 218 -170 225 Z"/>
+    <rect class="white" x="78" y="-100" width="48" height="110"/>
+    <g transform="translate(0 118) scale(0.46) translate(-265.566 -254.5)">
+      <g fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 119.566 46.443 L 325.566 46.443 C 373.566 46.443 411.566 84.443 411.566 132.443 L 348.566 132.443 C 331.566 132.443 317.566 146.443 317.566 163.443"/>
+        <path d="M 119.566 46.443 L 119.566 110.443 L 166.566 110.443"/>
+        <path d="M 167.566 110.443 C 185.566 121.443 183.938 142.443 177.938 163.443 L 147.272 215.5"/>
+        <rect x="199.566" y="154.443" width="120" height="64" rx="10"/>
+        <path d="M 196.852 222.778 C 151.852 275.778 131.566 335.443 131.566 404.443 C 131.566 443.443 155.566 463.443 193.566 463.443 L 327.566 463.443 C 365.566 463.443 389.566 443.443 389.566 404.443 C 389.566 335.443 366.752 276.398 321.752 223.398"/>
+        <circle cx="219.566" cy="312.443" r="22.82" fill="#FFFFFF" stroke="none"/>
+        <path d="M 209.566 377.443 C 225.566 404.443 293.566 404.443 309.566 377.443"/>
+        <circle cx="296.701" cy="311.866" r="22.82" fill="#FFFFFF" stroke="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

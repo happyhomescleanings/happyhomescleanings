@@ -7,7 +7,7 @@ export const site = {
   heroSubhead:
     "Reliable house cleaning, deep cleans, and more — serving Rapid City and surrounding communities.",
   email: "hello@happyhomescleanings.com",
-  phone: "6055190198",
+  phone: "6055198945",
   location: {
     city: "Rapid City",
     state: "South Dakota",

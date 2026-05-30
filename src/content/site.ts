@@ -1,7 +1,7 @@
 export const site = {
   name: "Happy Homes Services",
   shortName: "Happy Homes",
-  domain: "happyhomesservices.com",
+  domain: "happyhomescleanings.com",
   tagline: "Professional cleaning & home care in the Rapid City area.",
   heroHeadline: "Let us help you have a happy home.",
   heroSubhead:

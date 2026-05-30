@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "postinstall": "rm -rf public/logos && cp -R logos public/logos",
+    "prebuild": "rm -rf public/logos && cp -R logos public/logos",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

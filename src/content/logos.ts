@@ -1,4 +1,4 @@
-/** Brand logos in `/logos/` (served via `public/logos` symlink). */
+/** Brand logos in `/logos/` (copied to `public/logos` before build). */
 export const logos = {
   full: {
     light: "/logos/logo.svg",

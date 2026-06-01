@@ -27,3 +27,6 @@ export const logos = {
 } as const;
 
 export const faviconPath = logos.iconSquare.light;
+
+/** Full lockup — used for structured data and brand references. */
+export const brandLogoPath = logos.full.light;

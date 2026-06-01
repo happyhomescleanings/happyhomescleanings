@@ -25,18 +25,18 @@ export const siteImages = {
 } as const;
 
 export const beforeAfterImages = [
-  { src: "/images/before-after/01.jpg", alt: "Cleaning results" },
-  { src: "/images/before-after/02.jpg", alt: "Cleaning results" },
-  { src: "/images/before-after/03.jpg", alt: "Cleaning results" },
-  { src: "/images/before-after/04.jpg", alt: "Cleaning results" },
-  { src: "/images/before-after/05.jpg", alt: "Cleaning results" },
-  { src: "/images/before-after/06.jpg", alt: "Cleaning results" },
-  { src: "/images/before-after/07.jpg", alt: "Cleaning results" },
+  { src: "/images/before-after/01.jpg", alt: "Bright, tidy living room after house cleaning" },
+  { src: "/images/before-after/02.jpg", alt: "Clean kitchen counters and appliances" },
+  { src: "/images/before-after/03.jpg", alt: "Freshly cleaned bathroom vanity and mirror" },
+  { src: "/images/before-after/04.jpg", alt: "Organized bedroom after a maintenance clean" },
+  { src: "/images/before-after/05.jpg", alt: "Spotless entryway and floors" },
+  { src: "/images/before-after/06.jpg", alt: "Clean dining area ready for guests" },
+  { src: "/images/before-after/07.jpg", alt: "Polished home interior after deep cleaning" },
   { src: "/images/before-after/08-door-track.png", alt: "Door track before and after" },
   { src: "/images/before-after/09-oven-door.png", alt: "Oven door before and after" },
   { src: "/images/before-after/10-vanity.png", alt: "Bathroom vanity before and after" },
   { src: "/images/before-after/11-bathroom-mirror.png", alt: "Bathroom mirror before and after" },
-  { src: "/images/before-after/12.png", alt: "Cleaning results" },
+  { src: "/images/before-after/12.png", alt: "Detailed kitchen cleaning results" },
   { src: "/images/before-after/13-fridge.png", alt: "Refrigerator before and after" },
   { src: "/images/before-after/14-dishwasher.png", alt: "Dishwasher before and after" },
 ] as const;

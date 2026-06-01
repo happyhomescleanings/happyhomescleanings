@@ -5,7 +5,7 @@ export const site = {
   tagline: "Professional cleaning & home care in the Rapid City area.",
   heroHeadline: "Let us help you have a happy home.",
   heroSubhead:
-    "Reliable house cleaning, deep cleans, and more — serving Rapid City and surrounding communities.",
+    "Professional house cleaning in Rapid City, SD and nearby communities — deep cleans, turnovers, and more.",
   email: "hello@happyhomescleanings.com",
   phone: "6055198945",
   location: {

@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
 import { PackageCard } from "@/components/services/PackageCard";
@@ -6,11 +5,13 @@ import { Button } from "@/components/Button";
 import { siteImages } from "@/content/images";
 import { residentialPackages, specialtyServices } from "@/content/services";
 import { site } from "@/content/site";
+import { pageMetadata } from "@/lib/seo/metadata";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Services & Pricing",
-  description: `House cleaning packages, deep cleans, Airbnb turnover, pet care, and more. ${site.name} serves the ${site.location.area}.`,
-};
+  description: `House cleaning, deep cleans, and Airbnb turnover in the ${site.location.area}. Transparent starting prices from ${site.name}.`,
+  path: "/services",
+});
 
 export default function ServicesPage() {
   return (

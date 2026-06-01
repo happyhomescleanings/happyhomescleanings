@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { PageHeader } from "@/components/PageHeader";
 import { Section } from "@/components/Section";
@@ -8,11 +7,13 @@ import { siteImages } from "@/content/images";
 import { serviceAreaTowns } from "@/content/services";
 import { teamMembers } from "@/content/team";
 import { site } from "@/content/site";
+import { pageMetadata } from "@/lib/seo/metadata";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "About Us",
-  description: `Meet the team behind ${site.name} and learn where we serve in the ${site.location.area}.`,
-};
+  description: `Local house cleaning team serving ${site.location.city}, ${site.location.stateAbbr} and nearby towns. Meet ${site.name}.`,
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

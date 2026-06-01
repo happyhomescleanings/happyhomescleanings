@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { ContactForm } from "@/components/ContactForm";
 import { siteImages } from "@/content/images";
 import { site } from "@/content/site";
 import { formatPhoneDisplay, phoneHref } from "@/lib/format";
 import { isFeatureEnabled } from "@/lib/features";
+import { pageMetadata } from "@/lib/seo/metadata";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Contact",
-  description: `Request a free quote from ${site.name}. Email, call, or send us a message.`,
-};
+  description: `Request a free house cleaning quote in the ${site.location.area}. Email, call, or message ${site.name}.`,
+  path: "/contact",
+});
 
 export default function ContactPage() {
   const schedulingSoon = !isFeatureEnabled("onlineScheduling");

@@ -70,3 +70,11 @@
 ## Children during service
 
 - Young children (and pets) should be **supervised or kept in a separate area** during cleaning; staff focus is cleaning, not childcare (per prep guide on current site).
+
+---
+
+## Human waste cleanup
+
+For the health and safety of our team, any human feces found outside of the toilet will require an additional **$150 biohazard cleaning fee** if the client would like it cleaned.
+
+If the client chooses not to pay the additional fee, our team will leave the affected area untouched and continue cleaning all other agreed upon areas.

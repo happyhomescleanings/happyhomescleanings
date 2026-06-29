@@ -83,4 +83,9 @@ export const faqItems: FaqItem[] = [
     answer:
       "Contact us within 24 hours. If something was missed, we'll make it right or discuss a discount on your next visit.",
   },
+  {
+    question: "What is your human waste cleanup policy?",
+    answer:
+      "For the health and safety of our team, any human feces found outside of the toilet will require an additional $150 biohazard cleaning fee if you would like it cleaned. If you choose not to pay the additional fee, our team will leave the affected area untouched and continue cleaning all other agreed upon areas.",
+  },
 ];
